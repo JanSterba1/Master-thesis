@@ -1,0 +1,58 @@
+1: Overall structure – Working version (50 pages in total)
+
+Completing a thesis demonstrates your ability to conduct original research, review the existing literature, collect data, analyse the results, 
+and discuss conclusions and draw implications from your research.
+•	https://www.sagepub.com/sites/default/files/upm-binaries/28544_Chapter1.pdf
+
+
+Section 1 - Introduction
+
+•	Statement of the problem (2 pages)
+  o	Research question
+  o	Justification of research question and degree of novelty
+  o	Purpose of the study related to the location (being able to assess the predicted locations in person and reduce the limitations of the results of the study)
+•	Background and Need (7-10 pages)
+  o	Paradigm shift in the propulsion systems of personal mobility vehicles
+  o	Business models of EV charging stations
+  o	Use of Data analysis to foster decision making
+  o	Current placement methods
+  o	Current EV charging situation in Prague, Czech Republic
+  o	Current charging grid capabilities & capacity in Prague, Czech Republic
+  o	Types of chargers, average EV battery capacity
+
+Section 2 - Review of Literature (5 pages)
+
+•	Review of existing Optimisation models (maximize profit vs. minimize cost, minimize travel time, etc)
+o	  There have been other similar style studies 
+•	Review of different approaches
+•	Discussion of other studies conducted in Sweden, United Kingdom, and Germany
+•	Summary of the literature and of the relevant points for this thesis
+
+Section 3 - Methods (10 pages)
+
+•	Data sources, Cleaning the data, Selecting relevant data
+o	  Setting, participants, instructional materials, measurement technique
+•	Data preparation, land use classification, classification of geographical areas
+o 	Selection of the area, creation of the grid map
+o	  Matching traffic data, existing car parks and existing chargers with a grid map
+o	  Setting assumptions
+•	Types of chargers, size of EV battery capacity, number of EV vehicles
+•	Problem formulation (MILP), objective function and creating the optimisation model
+•	Software used for – data structure, data collection, creation of grids & maps
+
+Section 4 - Analysis (5 pages)
+
+•	Explanation of the model
+•	Visualization of the data
+•	Different outputs based on number of predicted charging stations
+•	Assessment of the placement of chargers in real life
+
+Section 5 - Results (5 pages)
+•	Discussion of findings
+•	Critical conclusion about the results
+
+Section 6 - Discussion (10 pages)
+•	Implications of the study
+•	Limitations of this study and its approach
+•	Further research suggestions
+•	Comparing results to previous studies
