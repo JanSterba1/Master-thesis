@@ -1,0 +1,29 @@
+﻿Name;Value/Unit;Meaning;Determination/Calculation
+xj;{0,1};Binary variable whether car park 𝑗 is selected for a charging station;0,1
+nj;integer;Number of chargers in station 𝑗 per day;2
+qj;integer;Number of cars charged by station 𝑗 at the same time;4
+pj;CZK;Charging price per minute in a station j;10
+tj;minutes;Estimated duration of an EV being fully charged;81,6
+mj;integer;Maximum number of charging sessions per day in station 𝑗 ;71
+lj;integer;Upper bound of chargers in station 𝑗 ;= 0,1 • pc
+rij;{0,1};"Binary variable which represents the service area coverage level of station 𝑗 on demand node 𝑖 (1 if service area coverage is <1000m; 0 otherwise )";0,1
+fi;integer;Average traffic flow in grid cell 𝑖 per day;Individual value per tile
+Ki;integer;Number of traffic flow measurement points in grid cell 𝑖  per day;Individual value per tile
+fki;integer;Daily traffic flow in individual point in grid cell 𝑖 per day;Individual value per tile
+Au;percentile;Usable area in grid cell 𝑖 (dependent on the land-use classification);Individual value per tile
+A;m2;Total area of grid cell 𝑖 ;1km2
+Ai;m2;Mixed-use area in grid cell 𝑖 ;Individual value per tile
+dri;integer;Remaining demand in grid cell 𝑖 per day;Individual value per tile
+di;integer;Charging demand of an EV in grid cell 𝑖 per day;Individual value per tile
+dic;integer;New charger potential demand coverage;Individual value per tile
+diz;integer;Charging demand of an EV in grid cell 𝑖 already being met by existing stations per day;71
+cej;CZK;Capital cost of station j per day;2180,52968
+coj;CZK;Operating cost of station j per day;41504
+crj;CZK;Renting fee per day of parking lot j (in CZK per 24hrs at 30CZK/hour rate);720
+ccj;CZK;Cost per charger;596920
+u;percentile;EV penetration rate;0,049240122
+α;kWh;Average capacity of EV battery;68
+pep;CZK;Purchase price of electricity per kWh;8
+pes;CZK;Sales price of electricity per kWh ;12
+cs;kWh;Average charging speed;50
+pc;integer;Max. proportion of a car park dedicated to EV charging;10% of total parking lot capacity
